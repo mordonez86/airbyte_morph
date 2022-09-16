@@ -24,7 +24,7 @@ select
         boolean_to_string('catalog_listing'),
         'initial_quantity',
         'available_quantity',
-        'price_aibyte_transform',
+        'price',
         'health_aibyte_transform',
     ]) }} as _airbyte_morph_itemsview_hashid,
     tmp.*
