@@ -24,7 +24,7 @@ select
     initial_quantity,
     available_quantity,
     price,
-    health_aibyte_transform,
+    health,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at,

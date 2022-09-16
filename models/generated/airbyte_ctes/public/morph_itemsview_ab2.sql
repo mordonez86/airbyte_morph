@@ -23,8 +23,8 @@ select
     {{ cast_to_boolean('catalog_listing') }} as catalog_listing,
     cast(initial_quantity as {{ dbt_utils.type_float() }}) as initial_quantity,
     cast(available_quantity as {{ dbt_utils.type_float() }}) as available_quantity,
-    cast(price as {{ dbt_utils.type_string() }}) as price,
-    cast(health_aibyte_transform as {{ dbt_utils.type_string() }}) as health_aibyte_transform,
+    cast(price as {{ dbt_utils.type_float() }}) as price,
+    cast(health as {{ dbt_utils.type_float() }}) as health,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at

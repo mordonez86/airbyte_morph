@@ -25,7 +25,7 @@ select
         'initial_quantity',
         'available_quantity',
         'price',
-        'health_aibyte_transform',
+        'health',
     ]) }} as _airbyte_morph_itemsview_hashid,
     tmp.*
 from {{ ref('morph_itemsview_ab2') }} tmp

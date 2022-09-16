@@ -24,7 +24,7 @@ select
     {{ json_extract_scalar('_airbyte_data', ['initial_quantity'], ['initial_quantity']) }} as initial_quantity,
     {{ json_extract_scalar('_airbyte_data', ['available_quantity'], ['available_quantity']) }} as available_quantity,
     {{ json_extract_scalar('_airbyte_data', ['price_aibyte_transform'], ['price_aibyte_transform']) }} as price,
-    {{ json_extract_scalar('_airbyte_data', ['health_aibyte_transform'], ['health_aibyte_transform']) }} as health_aibyte_transform,
+    {{ json_extract_scalar('_airbyte_data', ['health_aibyte_transform'], ['health_aibyte_transform']) }} as health,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at
