@@ -57,3 +57,7 @@ vars:
     morph_ordersview_ab2: public._airbyte_raw_morph_ordersview
     morph_ordersview_ab3: public._airbyte_raw_morph_ordersview
     morph_ordersview: public._airbyte_raw_morph_ordersview
+    morph_questionsview_ab1: public._airbyte_raw_morph_questionsview
+    morph_questionsview_ab2: public._airbyte_raw_morph_questionsview
+    morph_questionsview_ab3: public._airbyte_raw_morph_questionsview
+    morph_questionsview: public._airbyte_raw_morph_questionsview

@@ -8,3 +8,4 @@ sources:
   tables:
   - name: _airbyte_raw_morph_itemsview
   - name: _airbyte_raw_morph_ordersview
+  - name: _airbyte_raw_morph_questionsview
