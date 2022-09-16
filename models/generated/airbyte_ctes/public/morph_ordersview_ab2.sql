@@ -12,7 +12,7 @@ select
     cast(date_closed as {{ dbt_utils.type_string() }}) as date_closed,
     cast(date_created as {{ dbt_utils.type_string() }}) as date_created,
     cast(date_last_updated as {{ dbt_utils.type_string() }}) as date_last_updated,
-    cast(paid_amount_aibyte_transform as {{ dbt_utils.type_string() }}) as paid_amount_aibyte_transform,
+    cast(paid_amount as {{ dbt_utils.type_float() }}) as paid_amount,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at

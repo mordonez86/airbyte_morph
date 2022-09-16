@@ -13,7 +13,7 @@ select
         'date_closed',
         'date_created',
         'date_last_updated',
-        'paid_amount_aibyte_transform',
+        'paid_amount',
     ]) }} as _airbyte_morph_ordersview_hashid,
     tmp.*
 from {{ ref('morph_ordersview_ab2') }} tmp

@@ -12,7 +12,7 @@ select
     {{ json_extract_scalar('_airbyte_data', ['date_closed'], ['date_closed']) }} as date_closed,
     {{ json_extract_scalar('_airbyte_data', ['date_created'], ['date_created']) }} as date_created,
     {{ json_extract_scalar('_airbyte_data', ['date_last_updated'], ['date_last_updated']) }} as date_last_updated,
-    {{ json_extract_scalar('_airbyte_data', ['paid_amount_aibyte_transform'], ['paid_amount_aibyte_transform']) }} as paid_amount_aibyte_transform,
+    {{ json_extract_scalar('_airbyte_data', ['paid_amount_aibyte_transform'], ['paid_amount_aibyte_transform']) }} as paid_amount,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at

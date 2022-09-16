@@ -12,7 +12,7 @@ select
     date_closed,
     date_created,
     date_last_updated,
-    paid_amount_aibyte_transform,
+    paid_amount,
     _airbyte_ab_id,
     _airbyte_emitted_at,
     {{ current_timestamp() }} as _airbyte_normalized_at,
