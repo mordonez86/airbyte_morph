@@ -23,7 +23,7 @@ select
     catalog_listing,
     initial_quantity,
     available_quantity,
-    price,
+    price_aibyte_transform,
     health_aibyte_transform,
     _airbyte_ab_id,
     _airbyte_emitted_at,
